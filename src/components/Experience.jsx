@@ -38,7 +38,7 @@ import {
                     {element.location}
                   </h5>
                   <p id="description">{element.description}</p>
-                  {showButton && (
+                  {/* {showButton && (
                     <a
                       className={`button ${
                         isWorkIcon ? "workButton" : "schoolButton"
@@ -47,7 +47,7 @@ import {
                     >
                       {element.buttonText}
                     </a>
-                  )}
+                  )} */}
                 </VerticalTimelineElement>
               );
             })}
