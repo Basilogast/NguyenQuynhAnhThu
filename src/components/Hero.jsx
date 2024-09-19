@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
+import heroImg from "../assets/img/hero/heroImg.png";
+
 export const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -94,7 +96,7 @@ export const Hero = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={6} className="d-flex justify-content-center">
-            <div className="bigImgContainer">
+            <div className="bigImgContainer" style={{ backgroundImage: `url(${heroImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
               <div className="smallImgContainer smallImgContainer1"></div>
               <div className="smallImgContainer smallImgContainer2"></div>
               <div className="smallImgContainer smallImgContainer3"></div>
