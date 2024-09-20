@@ -569,22 +569,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .workPage h2 {
-  font-size: 4.5rem; /* Extra large font for main headings */
+  font-size: 30px; /* Extra large font for main headings */
   font-weight: 700; /* Bold font weight */
   color: #ffffff; /* White color for headings */
   margin-bottom: 35px; /* Space below the heading */
 }
 
 .workPage h3 {
-  font-size: 3.5rem; /* Larger font for subheadings */
+  font-size: 25px; /* Larger font for subheadings */
   font-weight: 600; /* Semi-bold font */
   color: #ffffff; /* Accent blue color for headings */
   padding: 25px 0; /* Space above and below */
-  border-bottom: 3px solid #007bff; /* Blue underline */
+  border-bottom: 3px solid #008100; /* Blue underline */
 }
 
 .workPage p {
-  font-size: 2rem; /* Significantly larger text for readability */
+  font-size: 18px; /* Significantly larger text for readability */
   line-height: 2; /* Taller line height for spacing */
   color: #b0b0b0; /* Muted light gray */
   margin-bottom: 40px; /* Increased space below paragraphs */
@@ -597,7 +597,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 16px 35px; /* Larger padding for emphasis */
   border-radius: 6px; /* Rounded corners */
   text-decoration: none; /* Remove underline */
-  font-size: 2rem; /* Larger button text */
+  font-size: 20px; /* Larger button text */
   font-weight: 700; /* Bold text */
   margin-bottom: 35px; /* Space below the button */
   transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */

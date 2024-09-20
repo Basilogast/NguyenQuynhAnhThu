@@ -44,17 +44,17 @@ export const Footer = () => {
               <ContactInfoItem
                 icon={location}
                 title="Address"
-                description="8 District, Ho Chi Minh City, Viet Nam"
+                description="Binh Thanh District, HCMC, Viet Nam"
               />
               <ContactInfoItem
                 icon={mail}
                 title="Email"
-                description="annguyen20112003@gmail.com"
+                description="contact.quynhthu@gmail.com"
               />
               <ContactInfoItem
                 icon={phone}
                 title="Phone"
-                description="0902784042"
+                description="0858456527"
               />
               <div className="imgplaceholder2"></div>
             </div>
