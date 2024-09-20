@@ -558,6 +558,139 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 60%;
 }
 
+/************ WorkPage Css ************/
+/* Updated styling for the workPage class */
+/* Dark-themed styling for the workPage class */
+/* Dark-themed styling for the workPage class */
+.workPage {
+  padding: 120px 30px 80px; /* Adjusted padding */
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+}
+
+.workPage h2 {
+  font-size: 4.5rem; /* Extra large font for main headings */
+  font-weight: 700; /* Bold font weight */
+  color: #ffffff; /* White color for headings */
+  margin-bottom: 35px; /* Space below the heading */
+}
+
+.workPage h3 {
+  font-size: 3.5rem; /* Larger font for subheadings */
+  font-weight: 600; /* Semi-bold font */
+  color: #ffffff; /* Accent blue color for headings */
+  padding: 25px 0; /* Space above and below */
+  border-bottom: 3px solid #007bff; /* Blue underline */
+}
+
+.workPage p {
+  font-size: 2rem; /* Significantly larger text for readability */
+  line-height: 2; /* Taller line height for spacing */
+  color: #b0b0b0; /* Muted light gray */
+  margin-bottom: 40px; /* Increased space below paragraphs */
+}
+
+.workPage .btnHome {
+  display: inline-block;
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  padding: 16px 35px; /* Larger padding for emphasis */
+  border-radius: 6px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 2rem; /* Larger button text */
+  font-weight: 700; /* Bold text */
+  margin-bottom: 35px; /* Space below the button */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3); /* Enhanced shadow */
+}
+
+.workPage .btnHome:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.08); /* Slightly larger on hover */
+  box-shadow: 0 7px 20px rgba(0, 123, 255, 0.5); /* Stronger hover shadow */
+}
+
+iframe {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); /* Soft shadow around iframe */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 40px; /* Space below iframe */
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .workPage {
+    padding: 90px 20px 50px; /* Adjusted padding for smaller screens */
+  }
+
+  .workPage h2 {
+    font-size: 3.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .workPage h3 {
+    font-size: 2.75rem; /* Adjust font size for smaller screens */
+  }
+
+  .workPage p {
+    font-size: 1.3rem; /* Adjust body text for smaller screens */
+  }
+
+  .workPage .btnHome {
+    padding: 14px 28px; /* Adjust padding for smaller screens */
+    font-size: 1.25rem; /* Adjust font size for smaller screens */
+  }
+}
+
+.media-container-wrapper{
+  padding: 20px 0;
+}
+
+.media-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 20px; /* Space between link and video */
+  padding: 20px;
+  border: 2px solid #343a40; /* Dark border */
+  border-radius: 10px;
+  background-color: #212529; /* Dark background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+  transition: box-shadow 0.3s ease;
+  max-width: 300px; /* Restrict width for better layout */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.media-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Stronger shadow on hover */
+}
+
+.media-link {
+  color: #00aaff; /* Light blue text */
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-align: center; /* Center text */
+}
+
+.media-link:hover {
+  color: #00ccff; /* Brighter blue on hover */
+  text-decoration: underline;
+}
+
+.media-video {
+  width: 100%; /* Make video responsive */
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  filter: brightness(80%); /* Dim the video slightly */
+}
+
+.media-video:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Stronger shadow on hover */
+  filter: brightness(100%); /* Restore video brightness on hover */
+}
+
 /************ Footer Css ************/
 .footer {
   background-color: #1b1b1b;
