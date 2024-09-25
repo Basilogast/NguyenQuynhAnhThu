@@ -29,10 +29,10 @@ function App() {
               <Experience />
               <Container>
                 <Row>
-                  <Col xs={12} md={4} xl={4}>
+                  <Col xs={12} md={6} xl={4}>
                     <Work />
                   </Col>
-                  <Col xs={12} md={8} xl={8}>
+                  <Col xs={12} md={6} xl={8}>
                     <Achievement />
                   </Col>
                 </Row>

@@ -41,21 +41,21 @@ let timelineElements = [
   },
   {
     id: 5,
+    title: "Digital Foundation Course",
+    location: "Tomorrow Marketers Academy",
+    description:
+      "Digital Research, PPC Campaign, Social Media: Facebook, YouTube & TikTok, E-commerce, Search (SEO), B2B Digital Marketing",
+    date: "May 2024",
+    icon: "school",
+  },
+  {
+    id: 6,
     title: "Marketing Foundation Course",
     location: "Tomorrow Marketers Academy",
     description:
       "Marketing Process, Insight & Product Concept Data Analysis, Brand Communication, Digital Marketing Overview, Marketing Plan , Trade Marketing",
     buttonText: "College Projects",
     date: "Feb 2024",
-    icon: "school",
-  },
-  {
-    id: 6,
-    title: "Digital Foundation Course",
-    location: "Tomorrow Marketers Academy",
-    description:
-      "Digital Research, PPC Campaign, Social Media: Facebook, YouTube & TikTok, E-commerce, Search (SEO), B2B Digital Marketing",
-    date: "May 2024",
     icon: "school",
   },
 ];

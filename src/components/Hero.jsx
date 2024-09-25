@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
-import heroImg from "../assets/img/hero/heroImg.png";
+import heroImg from "../assets/img/hero/heroImg2.png";
 
 export const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);

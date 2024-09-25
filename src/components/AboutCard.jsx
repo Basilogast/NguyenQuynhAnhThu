@@ -7,7 +7,7 @@ function AboutCard({ size, img }) {
           ...styles.card,
           ...styles[size],
           backgroundImage: `url(${img})`, // Dynamically set the background image
-          filter: "grayscale(90%)", // Decrease saturation close to black and white
+          filter: "grayscale(0%)", // Decrease saturation close to black and white
         }}
       ></div>
     );

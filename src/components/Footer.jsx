@@ -2,6 +2,7 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import location from "../assets/img/footer/location.svg";
 import mail from "../assets/img/footer/mail.svg";
 import phone from "../assets/img/footer/phone.svg";
+import footer1 from "../assets/img/footer/footer1.png";
 
 export const Footer = () => {
   return (
@@ -33,13 +34,13 @@ export const Footer = () => {
           </Col>
 
           {/* Divider Line */}
-          <Col xs={12} md={3} xl={3}>
-            <div className="imgplaceholder"></div>
+          <Col xs={12} md={2} xl={2}>
+            {/* <div className="imgplaceholder"></div> */}
+            <div className="divider"></div>
           </Col>
 
           {/* Contact Information */}
-          <Col xs={12} md={4} xl={4} className="contact-info-col d-flex">
-            <div className="divider"></div>
+          <Col xs={12} md={5} xl={5} className="contact-info-col d-flex">
             <div>
               <ContactInfoItem
                 icon={location}
@@ -56,7 +57,14 @@ export const Footer = () => {
                 title="Phone"
                 description="0858456527"
               />
-              <div className="imgplaceholder2"></div>
+              <div
+                className="imgplaceholder2"
+                style={{
+                  backgroundImage: `url(${footer1})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+              ></div>
             </div>
           </Col>
         </Row>

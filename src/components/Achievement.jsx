@@ -18,7 +18,7 @@ export const Achievement = () => {
       padding: 0,
       width: "auto",
       display: "grid",
-      gridTemplateColumns: "repeat(auto-fill, 400px)",
+      gridTemplateColumns: "repeat(auto-fill, 350px)",
       gridAutoRows: "10px",
       // position: "absolute",
       // left: "50%",
