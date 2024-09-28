@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 import WorkCard from "./WorkCard";
 
 import project1 from "../assets/img/work/project1.png"
-import project2 from "../assets/img/work/project2.png"
-import project3 from "../assets/img/work/project3.png"
+import project2 from "../assets/img/work/ICMas.jpg"
+import project3 from "../assets/img/work/Digi.jpg"
 
 import project1Pdf from "../assets/img/work/project1.pdf"
 import project2Pdf from "../assets/img/work/project2.pdf"

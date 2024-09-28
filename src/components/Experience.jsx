@@ -38,16 +38,16 @@ import {
                     {element.location}
                   </h5>
                   <p id="description">{element.description}</p>
-                  {/* {showButton && (
+                  {showButton && (
                     <a
                       className={`button ${
                         isWorkIcon ? "workButton" : "schoolButton"
                       }`}
-                      href="/"
+                      href={element.href}
                     >
                       {element.buttonText}
                     </a>
-                  )} */}
+                  )}
                 </VerticalTimelineElement>
               );
             })}

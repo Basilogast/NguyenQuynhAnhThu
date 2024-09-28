@@ -7,9 +7,9 @@ import project1 from "../assets/img/work/extra1.jpg"
 import project2 from "../assets/img/work/extra2.jpg"
 import project3 from "../assets/img/work/extra3.jpg"
 
-import project1Pdf from "../assets/img/work/project1.pdf"
-import project2Pdf from "../assets/img/work/project2.pdf"
-import project3Pdf from "../assets/img/work/project3.pdf"
+import project1Pdf from "../assets/img/work/extra1.pdf"
+import project2Pdf from "../assets/img/work/extra2.pdf"
+import project3Pdf from "../assets/img/work/extra3.pdf"
 
 export const Extra = () => {
   const styles = {

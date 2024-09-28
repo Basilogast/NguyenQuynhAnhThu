@@ -7,7 +7,7 @@ import project3 from "../assets/img/work/work1.jpeg"
 
 import project1Pdf from "../assets/img/work/project1.pdf"
 import project2Pdf from "../assets/img/work/project2.pdf"
-import project3Pdf from "../assets/img/work/work1.jpeg"
+import project3Pdf from "../assets/img/work/workpage/aow1.mp4"
 
 export const Work = () => {
   const styles = {
